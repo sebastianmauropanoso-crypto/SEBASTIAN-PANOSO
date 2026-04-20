@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.padre{
+    text-align: center;
+}
+
+/* TÍTULO */
+.uno{
+    background-color: darkolivegreen;
+    margin: 25px;
+    padding: 20px;
+    color: white;
+}
+
+/* CONTENIDO (LOS DOS CUADROS) */
+.dos{
+    background-color: darkolivegreen;
+    margin: 25px;
+    padding: 15%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* CUADRO 1 */
+.dosuno{
+    background-color: burlywood;
+    padding: 20px;
+    color: white;
+    width: 40%;
+}
+
+/* CUADRO 2 */
+.dosdos{
+    background-color: blanchedalmond;
+    padding: 40px;
+    width: 40%;
+}
+
+/* PIE DE PÁGINA */
+.tres{
+    background-color: darkolivegreen;
+    margin: 25px;
+    padding: 20px;
+    color: white;
+}
